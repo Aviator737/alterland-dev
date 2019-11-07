@@ -1,0 +1,82 @@
+//translate animation
+.translate-enter {
+    z-index: 2;
+    transform: translateX(-730px);
+}
+.translate-enter-active {
+    z-index: 2;
+    transform: translateX(0px);
+    transition: transform 1500ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+.translate-exit {
+    opacity: 1;
+}
+.translate-exit-active {
+    opacity: 1;
+    transform: translateX(-730px);
+    transition: transform 1500ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+//fade animation
+.fade-appear {
+    opacity: 0;
+}
+.fade-appear-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+.fade-enter {
+    opacity: 0;
+  }
+.fade-enter-active {
+    opacity: 1;
+    transition: opacity 1500ms;
+}
+.fade-exit {
+    opacity: 1;
+}
+.fade-exit-active {
+    opacity: 0;
+    transition: opacity 1500ms;
+}
+
+//emoji animations
+
+//👋 handwave
+.handwave-appear-active {
+    animation-name: wave-animation;
+    animation-delay: 500ms;
+    animation-duration: 1.5s;
+    transform-origin: 70% 70%;
+    display: inline-block;
+}
+  
+@keyframes wave-animation {
+    0% { transform: rotate(  0.0deg) }
+    10% { transform: rotate(-10.0deg) }
+    20% { transform: rotate( 12.0deg) }
+    30% { transform: rotate(-10.0deg) }
+    40% { transform: rotate(  9.0deg) }
+    50% { transform: rotate(  0.0deg) }
+    100% { transform: rotate(  0.0deg) }
+}
+
+//tada
+.tada-appear-active {
+    animation-name: tada;
+    animation-delay: 500ms;
+    animation-duration: 1.5s;
+    transform-origin: 70% 70%;
+    display: inline-block;
+}
+@keyframes tada {
+    from { transform: scale3d(1, 1, 1) }
+  
+    10%, 20% { transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg) }
+  
+    30%, 50%, 70%, 90% { transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg) }
+  
+    40%, 60%, 80% { transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg) }
+  
+    to { transform: scale3d(1, 1, 1) }
+}

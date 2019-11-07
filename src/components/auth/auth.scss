@@ -1,0 +1,53 @@
+.auth{
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    //filter: blur(150px);
+    backdrop-filter: blur(150px);
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &-form-wrapper{
+        text-align: center;
+        width: 370px;
+    }
+    h3{
+        color: #424242;
+        font-size: 36px;
+    }
+    a{
+        color: #4fc3f7;
+        text-decoration: none;
+    }
+    p{
+        margin-top: 40px;
+    }
+    &-footer{
+        color: #757575;
+        margin-top: 46px;
+    }
+}
+.form-input{
+    width: 90%;
+}
+.form-submit{
+    width: 75%;
+}
+.auth-fade-appear{
+    opacity: 0;
+}
+.auth-fade-appear-active{
+    opacity: 1;
+    transition: opacity 400ms ease-in;
+}
+.auth-translate-appear{
+    opacity: 0;
+    transform: translateX(200px);
+}
+.auth-translate-appear-active{
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 400ms ease-out;
+}
