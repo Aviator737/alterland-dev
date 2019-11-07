@@ -8,6 +8,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Passing the carousel property (color) to the parent;
 - Authentication;
 - Form validation with schema 🚲;
+- Animations;
 - Calling api using axios;
 - Protected route (try /dashboard without logging in);
 - Redirect back to the requested page upon successful authentication.
