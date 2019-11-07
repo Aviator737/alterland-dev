@@ -1,5 +1,16 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+## Here it is implemented:
+
+- Design 😍
+- Carousel that changes the picture only when it loads;
+- Passing the carousel property (color) to the parent;
+- Authentication;
+- Form validation with schema;
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
