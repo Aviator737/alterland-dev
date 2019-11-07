@@ -7,7 +7,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Carousel that changes the picture only when it loads;
 - Passing the carousel property (color) to the parent;
 - Authentication;
-- Form validation with schema;
+- Form validation with schema 🚲;
 - Calling api using axios;
 - Protected route (try /dashboard without logging in);
 - Redirect back to the requested page upon successful authentication.
