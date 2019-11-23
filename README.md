@@ -3,7 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Here it is implemented:
 
-- Design 😍
+- Design
 - Routing;
 - Authentication;
 - Form validation with schema 🚲;
